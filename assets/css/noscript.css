@@ -1,0 +1,36 @@
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Header */
+
+	body.is-preload #header.alt > * {
+		opacity: 1;
+	}
+
+	body.is-preload #header.alt .logo {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+
+	.alt.social a{
+		transition: 0.5s;
+	}
+	.alt.social{
+		padding: 2rem;
+		display: flex;
+		justify-content: center;
+		flex-direction:row ;
+		margin-right: auto;
+		/* align-items:start; */
+		gap: 4 rem;
+		font-size: 2rem;
+	}
+
+	.alt.social a:hover{
+		transform: translateY(-12px);
+	}
